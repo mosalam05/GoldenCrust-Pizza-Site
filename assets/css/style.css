@@ -301,3 +301,48 @@ nav a {
   font-weight: 500;
   color: #f8f8f8;
 }
+
+/* -------------------- FOOTER ---------------------- */
+
+.footer {
+  background: #0c0c0c;
+  padding: 60px 0 25px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  color: hsl(42, 88%, 73%);
+}
+
+.footer-logo {
+  font-family: "Bangers";
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  color: #f7d37c;
+}
+
+.footer-col h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffca4f;
+}
+
+.footer-col p {
+  margin: 8px 0;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.social-icons img {
+  width: 25px;
+}
